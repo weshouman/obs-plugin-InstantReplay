@@ -67,3 +67,6 @@ clean:
 .PHONY: uninstall
 uninstall:
 	rm -r $(HOME)/.config/obs-studio/plugins/InstantReplay
+
+include build.mk
+
